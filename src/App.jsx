@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Header from './components/Header';
+import QuizApp from './components/QuizApp';
 
 const App = () => {
   return (
-    <div className='text-[100px] text-red-800 italic'>
-      QUIZ APP REACT 
-    </div>
-  )
-}
+    <>
+      <Header />
+      <QuizApp />
+    </>
+  );
+};
 
-export default App
+export default App;
