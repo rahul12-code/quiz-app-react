@@ -5,7 +5,6 @@ import QuizApp from './components/QuizApp';
 const App = () => {
   return (
     <>
-      <Header />
       <QuizApp />
     </>
   );

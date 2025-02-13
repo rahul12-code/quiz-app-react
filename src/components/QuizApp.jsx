@@ -34,8 +34,8 @@ const QuizApp = () => {
   };
 
   return (
-    <div className="w-11/12 mx-auto">
-      <div className="w-full min-h-[85vh] bg-[#2c3658] flex items-center justify-center text-base">
+    <div className="w-full h-full">
+      <div className="w-full min-h-[100vh] bg-[#2c3658] flex items-center justify-center text-base">
         <div className="text-white h-[30rem] w-[30rem] p-7 bg-[#699cf4] rounded-xl border-t-[5px] border-[#00fff2]">
           <div className="h-full relative">
             {slideNumber <= 10 ? (
